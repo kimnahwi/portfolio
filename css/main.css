@@ -401,6 +401,26 @@ body {font-family: 'Noto Sans KR', sans-serif;}
   height: 100%;
 }
 
+.etc .skills_img img {
+  width: 30px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.etc_img {
+  display: flex;
+  align-items: center;
+}
+
+.etc_img img {
+  display: block;
+  width: 40px;
+  margin: 0 20px;
+}
+
 .contents01 .contents01_right.on .html circle {
   stroke: #e44d26;
   animation: line01 2s 1.9s forwards;
@@ -563,10 +583,6 @@ body {font-family: 'Noto Sans KR', sans-serif;}
   margin-right: 5px;
 }
 
-.contents02 .contents02_left .contents02_btn {
-  margin-left: 60px;
-}
-
 .contents02 .contents02_left .contents02_btn a {
   display: block;
   float: left;
@@ -579,8 +595,8 @@ body {font-family: 'Noto Sans KR', sans-serif;}
   color: #00A0CA;
 }
 
-.contents02 .contents02_left .contents02_btn a:first-child {
-  margin-right: 20px;
+.contents02 .contents02_left .contents02_btn a:nth-child(2) {
+  margin: 0 20px;
 }
 
 .contents02 .contents02_left .contents02_btn a:hover {
@@ -736,10 +752,6 @@ body {font-family: 'Noto Sans KR', sans-serif;}
   margin-right: 5px;
 }
 
-.contents03 .contents03_left .contents03_btn {
-  margin-left: 60px;
-}
-
 .contents03 .contents03_left .contents03_btn a {
   display: block;
   float: left;
@@ -752,8 +764,8 @@ body {font-family: 'Noto Sans KR', sans-serif;}
   color: #F49E00;
 }
 
-.contents03 .contents03_left .contents03_btn a:first-child {
-  margin-right: 20px;
+.contents03 .contents03_left .contents03_btn a:nth-child(2) {
+  margin: 0 20px;
 }
 
 .contents03 .contents03_left .contents03_btn a:hover {
@@ -943,10 +955,6 @@ body {font-family: 'Noto Sans KR', sans-serif;}
   margin-right: 5px;
 }
 
-.contents04 .contents04_left .contents04_btn {
-  margin-left: 60px;
-}
-
 .contents04 .contents04_left .contents04_btn a {
   display: block;
   float: left;
@@ -964,8 +972,8 @@ body {font-family: 'Noto Sans KR', sans-serif;}
   color: #fbd9dd;
 }
 
-.contents04 .contents04_left .contents04_btn a:first-child {
-  margin-right: 20px;
+.contents04 .contents04_left .contents04_btn a:nth-child(2) {
+  margin: 0 20px;
 }
 
 .contents04 .contents04_right {
@@ -1250,7 +1258,7 @@ body {font-family: 'Noto Sans KR', sans-serif;}
 }
 
 .contents06_right span {
-  color: #98c7f6;
+  color: #5987b5;
 }
 
 .contents06_right .span_ani01::after {
